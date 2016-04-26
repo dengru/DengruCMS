@@ -8,6 +8,8 @@ Features:
 
 * User Management - a simplified way to take control over the users of the website. Who is who, and who is the admin. This section features creation and deletion of users.
 
+* Dynamic Templating - the backend-content is handled by rending html/php-templates instead of loading the page header and footer more than just a single time. A template might have a name like "index.tpl" or "thread.tpl", and each one of these handles their own content and purpose. For instance, the "thread.tpl" template is rendered when a user enters a thread in the forum board. This is a very neat feature that allows for pure creativity.
+
 * PDO - the software is writed using the PDO-extention within the MySQL-package, with the purpose of allowing any type of database that supports the PDO-driver to be used, in other words, this system doesn't constrain you to use the regular MySQL database. Instead you can use the one you prefer the best. It could be MySQLi, MSSQL or postgresql. Pick and go!
 
 * ... and many other features!
