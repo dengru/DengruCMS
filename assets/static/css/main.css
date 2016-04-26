@@ -1,0 +1,395 @@
+/* ==========================
+   Dengru CMS - Main stylesheet
+   ========================== */
+
+article, 
+aside, 
+footer,
+header,
+nav,
+section {
+    display: block;
+}
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: .83em 0;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+
+h5 {
+    font-size: .83em;
+    margin: 1.67em 0;
+}
+
+h6 {
+    font-size: .75em;
+    margin: 2.33em 0;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+p,
+pre {
+    margin: 1em 0;
+}
+
+small {
+    font-size: 80%;
+}
+
+dl,
+ol,
+ul {
+    margin: 1em 0;
+}
+
+dd {
+    margin: 0 0 0 40px;
+}
+
+ol,
+ul {
+    padding: 0 0 0 40px;
+}
+
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+form {
+    margin: 0;
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em;
+}
+
+legend {
+    border: 0;
+    padding: 0;
+    white-space: normal;
+    margin-left: -7px;
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    vertical-align: middle;
+}
+
+button,
+input {
+    line-height: normal;
+}
+
+button,
+input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    overflow: visible;
+}
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    height: 13px;
+    width: 13px;
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ==============
+   Initialization
+   ============== */
+	body {
+		background: #ccc;
+		font: 16px/26px Helvetica, Helvetica Neue, Arial;
+	}
+
+	.wrapper {
+		width: 90%;
+		margin: 0 5%;
+	}
+
+	.header-container,
+	.footer-container,
+	.main aside {
+		background: #555;
+	}
+
+/* ======
+   Header
+   ====== */
+	.header-container {
+		border-bottom: 20px solid #666;
+	}
+
+	.title {
+		color: white;
+	}
+
+/* ======
+   Footer
+   ====== */
+	.footer-container {
+		border-top: 20px solid #666;
+	}
+
+/* ====
+   Main
+   ==== */
+	.main aside {
+		border-top: 20px solid #666;
+	}
+	
+
+/* ============
+   MOBILE: Menu
+   ============ */
+	nav ul {
+		margin: 0;
+		padding: 0;
+	}
+	
+	nav a {
+		display: block;
+		margin-bottom: 10px;
+		padding: 15px 0;
+		text-align: center;
+		text-decoration: none;
+		font-weight: bold;
+		color: #ddd;
+		background: #666;
+	}
+	
+	nav a:hover,
+	nav a:visited {
+		color: #ddd;
+	}
+	
+	nav a:hover {
+		text-decoration: underline;
+	}
+	
+	
+/* ============
+   MOBILE: Main
+   ============ */
+	.main {
+		color: #222;
+		padding: 30px 0;
+	}
+	
+	.main article h1 {
+		font-size: 2em;
+	}
+	
+	.main aside {
+		color: white;
+		padding: 0px 5% 10px;
+	}
+	
+	.footer-container footer {
+		color: white;
+		padding: 20px 0;
+	}
+	
+	/* =============
+	   ALL: IE Fixes
+	   ============= */
+		.ie7 .title {
+			padding-top: 20px;
+		}
+
+
+@media only screen and (min-width: 480px) {
+
+/* ==================
+   INTERMEDIATE: Menu
+   ================== */
+	nav a {
+		float: left;
+		width: 17%;
+		margin: 0 1.7%;
+		padding: 25px 2%;
+		margin-bottom: 0;
+	}
+
+	nav li:first-child a {
+		margin-left: 0;
+	}
+
+	nav li:last-child a {
+		margin-right: 0;
+	}
+
+/* ======================
+   INTERMEDIATE: IE Fixes
+   ====================== */
+	nav ul li {
+		display: inline;
+	}
+
+	.oldie nav a {
+		margin: 0 0.7%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ==================
+   WIDE: General Styles
+   ================== */
+	.header-container,
+	.main aside {
+		-webkit-box-shadow: 0 5px 10px #aaa;
+		   -moz-box-shadow: 0 5px 10px #aaa;
+				box-shadow: 0 5px 10px #aaa;
+	}
+/* ==========
+   WIDE: Menu
+   ========== */
+	.title {
+		float: left;
+	}
+	
+	nav {
+		float: right;
+		width: 50%;
+	}
+	
+/* ==========
+   WIDE: Main
+   ========== */
+	.main article {
+		float: left;
+		width: 57%;
+	}
+	
+	.main aside {
+		float: right;
+		width: 28%;
+	}
+}
+
+
+@media only screen and (min-width: 1140px) {
+
+/* =============
+   Maximal Width
+   ============= */
+	.wrapper {
+		width: 1026px;
+		margin: 0 auto;
+	}
+}
+
+
+/* =========
+   Behaviour
+   ========= */
+  
+.clearfix {
+	*zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
