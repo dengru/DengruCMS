@@ -1,0 +1,247 @@
+﻿html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: none 0;
+    vertical-align: baseline;
+}
+
+html {
+	height: 80%;
+}
+
+body#dengru-login {
+	border-top: 4px solid rgb(34, 36, 40);
+}
+
+.row-fluid {
+	width: 100%;
+}
+
+.row-fluid:before,
+.row-fluid:after {
+	display: table;
+	content: "";
+}
+
+.row-fluid:after {
+	clear: both;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container:before,
+.container:after {
+	display: table;
+	content: "";
+}
+
+.container:after {
+	clear: both;
+}
+
+.container-fluid {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.container-fluid:before,
+.container-fluid:after {
+	display: table;
+	content: "";
+}
+
+.container-fluid:after {
+	clear: both;
+}
+
+.row .pad {
+	padding: 0 15px;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.row,
+.row-fluid {
+	max-width: 1100px;
+	min-width: 960px;
+}
+
+.row .row-fluid,
+.row-fluid .row-fluid {
+	max-width: 100%;
+	min-width: 100%;
+}
+
+#container {
+	width: 360px;
+	margin: 120px auto 0px;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+#container header {
+	margin: 0px 0px 20px;
+	display: block;
+	width: 100%;
+}
+
+#container header .left {
+	float: left;
+	margin-left: -68px;
+	position: relative;
+}
+
+/* logo */
+#container header h1.dengru-logo-text {
+	font-size: 36px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 1;
+	border-bottom: 5px solid #497327;
+	letter-spacing: -3px;
+	font-variant: small-caps;
+}
+
+#container header h1.dengru-logo-text span {
+	font-size: 17px;
+	letter-spacing: -1px;
+	line-height: 2.6;
+	font-variant: small-caps;
+	float: right;
+}
+
+#container header h1.dengru-logo-text:first-letter {
+	color: #497327;
+}
+
+#dengru-panel-login-div {
+	width: 100%;
+}
+
+.login-form-item {
+	display: block;
+	position: relative;
+}
+
+.login-form-element {
+	border-radius: 3px 3px 3px 3px;
+	border: 1px solid rgb(204, 204, 204);
+	height: 20px;
+	padding: 10px;
+}
+
+.login-form-element label {
+	position: relative;
+	display: inline-block;
+	font-size: 13px;
+	height: 20px;
+	float: left;
+	width: 62px!important;
+	font-family: Arial, "Lucida Grande", sans-serif;
+	color: rgb(102, 102, 102);
+	text-align: right;
+	margin: 2px 0px 0px 15px;
+}
+
+.login-form-element input {
+	position: relative;
+	float: right;
+	display: inline-block;
+	margin: -10px 15px;
+	padding: 0px 0px 0px 10px;
+	font-size: 14px;
+	height: 40px;
+	/*padding: 0px;*/
+	border: none;
+	width: 220px;
+	/*color: rgb(34, 36, 40);*/
+	color: #497327;
+}
+
+button.login-form-btn {
+	padding: 10px 20px 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.55);
+    font-weight: 700;
+	cursor: pointer;
+    color: rgb(250, 250, 250);
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0px 1px 7px rgb(0, 0, 0), 0px 1px 0px rgba(255, 255, 255, 0.3) inset, 0px 1px 0px rgba(0, 0, 0, 0.24);
+    background-clip: padding-box;
+    background-color: #497327;
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ5NzMyNyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzZiYTEzZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background-size: 100%;
+}
+
+button.login-form-btn:hover {
+    background-color: #619934;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjEwMCUiIHgyPSI1MCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYxOTkzNCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzg0YmQ1NiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background-size: 100%;
+}
+
+button.login-form-btn.x-btn-text {
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3), 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+
+.login-controls {
+	min-height: 50px;
+	width: 90%;
+	padding: 10px 0px 20px 10px;
+	position: relative;
+}
+
+.login-controls .stay-logged-in {
+	width: 50%;
+	float: left;
+	margin: 7px;
+}
+
+.login-controls .stay-logged-in input[type="checkbox"] {
+	vertical-align: middle;
+	margin: 0px 6px 0px 3px;
+	box-shadow: 0px 1px 3px rgb(12, 12, 12);
+}
+
+.login-controls button.login-form-btn {
+	width: auto;
+	float: right;
+	margin-right: 0!important;
+}
+
+
+/* footer */
+footer {
+	min-width: 100%!important;
+	position: absolute;
+	margin: 0 auto;
+	bottom: 0;
+	float: left;
+}
+
+footer .row-fluid.center .copy-info {
+	vertical-align: top;
+	display: inline-block;
+	margin: 0px;
+}
+
+footer .row-fluid.center .copy-info p {
+	margin: 7px;
+	font-size: 0.9em;
+	color: rgb(34, 36, 40);
+}
