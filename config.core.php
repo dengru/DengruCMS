@@ -18,9 +18,9 @@ define('DENGRU_DASH_URL', DENGRU_DASH_PROTOCOL . DENGRU_DASH_HOST);
 
 // Database
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'degrun');
-define('DB_USER', 'degrun');
-define('DB_PASS', 'eKcGZr59zAa2BEWU');
+define('DB_NAME', 'dbname');
+define('DB_USER', 'dbuser');
+define('DB_PASS', 'dbpass');
 
 define('SQLITE_FILE', './test.sdb');
 
